@@ -5,6 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form html</title>
+  <style>
+    label {
+      display: block;
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 
 <body>
@@ -12,7 +18,19 @@
 
   </header>
   <main>
+    <section>
+      <h2>Please fill up this form</h2>
+      <form>
+        <label for="name">Your Name:
+          <input type="text" placeholder="Your name" id="name">
+        </label>
 
+        <label for="email">Gmail:
+          <input type="email" placeholder="simpale@gmail.com" id="email">
+        </label>
+        <label for="Number">Number:<input type="number" name="" id="number" placeholder="Number"></label>
+      </form>
+    </section>
 
 
   </main>
